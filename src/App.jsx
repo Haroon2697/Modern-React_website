@@ -4,9 +4,13 @@ import Home from './Home.jsx'; // Ensure this path is correct
 
 function App() {
   return (
+
+
     <Routes>
       <Route path='/' element={<Home />} />
     </Routes>
+
+    
   );
 }
 
